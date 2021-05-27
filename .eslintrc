@@ -9,7 +9,8 @@
     "semi": "off",
     "quotes": "off",
     "comma-dangle": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "linebreak-style": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }

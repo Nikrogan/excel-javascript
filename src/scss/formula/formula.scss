@@ -1,0 +1,24 @@
+@import "../utils/variables";
+
+.formula {
+  min-height: 30px;
+  border-bottom: $border;
+  display: flex;
+  align-items: center;
+  &__info {
+    font-size: 18px;
+    font-style: italic;
+    border-right: $border;
+    min-width: $info-cell-width;
+    text-align: center;
+  }
+
+  &__input {
+    padding: 4px;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: #000000;
+  }
+}

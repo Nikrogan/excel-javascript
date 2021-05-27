@@ -1,4 +1,4 @@
-import './main.scss'
+import './scss/main.scss'
 
 async function start() {
     await Promise.resolve
