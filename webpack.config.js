@@ -36,7 +36,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
-    extensions: [".wasm", ".ts", ".tsx", ".mjs", ".cjs", ".js", ".json"],
+    extensions: [".wasm", ".ts", ".tsx", ".mjs", ".cjs", ".js", ".json", ".scss"],
     alias: {
       "@": path.resolve(__dirname, 'src'),
       "core": path.resolve(__dirname, "src")
