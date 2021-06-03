@@ -1,5 +1,9 @@
 {
-  "parser": "babel-eslint",
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "env": {
     "es6": true,
     "browser": true,
@@ -10,7 +14,15 @@
     "quotes": "off",
     "comma-dangle": "off",
     "no-unused-vars": "off",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "require-jsdoc": "off",
+    "eol-last": "off",
+    "no-trailing-spaces": "off",
+    "max-len": "off"
   },
-  "extends": ["eslint:recommended", "google"]
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "google"
+  ]
 }

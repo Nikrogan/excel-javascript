@@ -39,7 +39,7 @@ module.exports = {
     extensions: [".wasm", ".ts", ".tsx", ".mjs", ".cjs", ".js", ".json", ".scss"],
     alias: {
       "@": path.resolve(__dirname, 'src'),
-      "core": path.resolve(__dirname, "src")
+      "@core": path.resolve(__dirname, "src")
     }
 
   },
